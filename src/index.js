@@ -4,9 +4,9 @@ import './index.css';
 import App from './App';
 import { transitions, positions, Provider as AlertProvider } from 'react-alert'
 import AlertTemplate from 'react-alert-template-basic'
-import {disableReactDevTools} from '@fvilers/disable-react-devtools';
+// import {disableReactDevTools} from '@fvilers/disable-react-devtools';
 
-if(process.end.NODE_ENV === 'production') disableReactDevTools()
+// if(process.end.NODE_ENV === 'production') disableReactDevTools()
 
 const options = {
   // you can also just use 'bottom center'
